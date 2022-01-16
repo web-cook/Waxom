@@ -461,6 +461,12 @@ body._lock {
 }
 
 /*---------SERVICES---------------------------------------------*/
+svg path {
+  fill: inherit;
+  stroke: inherit;
+  stroke-width: inherit;
+}
+
 .services {
   padding: 80px 0;
   background-color: #ffffff;
@@ -490,6 +496,11 @@ body._lock {
   -webkit-transition: 0.7s;
   transition: 0.7s;
   color: #c7b299;
+}
+.services__container a:hover .services__icon_color {
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  fill: #c7b299;
 }
 .services__name {
   display: -webkit-box;
